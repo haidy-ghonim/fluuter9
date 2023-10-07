@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ListView(
           children:[
             SizedBox(height: 100,),
-            FlutterLogo(size: 80,),
+            Image(image:AssetImage('images/diamond.png'),height: 150.0),
             SizedBox(height: 80,),
             Padding(
               padding: const EdgeInsets.all(8.0),
